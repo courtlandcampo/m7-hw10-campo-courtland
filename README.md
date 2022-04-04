@@ -1,3 +1,7 @@
+Challenges were overcome by trial and error with small writing issues (missinng semi colons)
+
+Used the sources in the instructions
+
 # Note taking app
 
 &nbsp;
