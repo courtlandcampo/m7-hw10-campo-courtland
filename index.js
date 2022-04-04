@@ -6,7 +6,13 @@ var textarea = document.querySelector('textarea')
 
 // Retrieve name and note content from cookies and localstorage
 // Then apply them to elements on the page
-// YOUR CODE HERE
+textarea.value = localStorage.getItem('yourTextarea');
+
+
+personsName = document.cookie;
+if (personsName) {
+    nameSpan.textContent = personsName.split('=');
+}
 
 formEl.onsubmit = function(e) {
   // prevents form submission
